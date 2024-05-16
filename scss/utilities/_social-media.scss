@@ -1,0 +1,18 @@
+// utilities/_social-media.scss
+
+// Para mi no hace falta pero dijeron que era bueno separar SASS en secciones, 
+// entiendo que para sitios grandes mediano o grande, acá me parece impráctico, pero lo hago como muestra que sé a qué se refiere :) 
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+
+    img {
+        height: 40px;
+        width: auto;
+
+    }
+}
